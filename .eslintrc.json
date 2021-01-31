@@ -16,13 +16,14 @@
         "endOfLine": "auto"
       }
     ],
-    "allowTernar": true,
-    "allowShortCircuit": true,
     "import/no-extraneous-dependencies": "off",
     "import/prefer-default-export": "off",
     "no-confusing-arrow": "off",
     "linebreak-style": "off",
-    "arrow-parens": ["error", "as-needed"],
+    "no-unused-expressions": "off",
+    "no-use-before-define": "off",
+    "no-shadow": "off",
+    "arrow-parens": ["off"],
     "comma-dangle": [
       "error",
       {
@@ -33,6 +34,8 @@
         "functions": "ignore"
       }
     ],
-    "no-plusplus": "off"
+    "no-plusplus": "off",
+    "complexity": ["error", 4],
+    "default-case": "error"
   }
 }

@@ -145,7 +145,7 @@ Checking peerDependencies of eslint-config-airbnb-base@latest
 
 
 
-
+// ------------------------------ OR Clone the ripo :p !!! 
 
 utilities 
 fix the buges : eslint . --fix
