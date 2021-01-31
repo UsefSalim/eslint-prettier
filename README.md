@@ -64,9 +64,52 @@ Checking peerDependencies of eslint-config-airbnb-base@latest
 
   "rules": {
 
-    "prettier/prettier": "error"
+    "prettier/prettier": [
+
+      "error",
+
+      {
+
+        "endOfLine": "auto"
+
+      }
+
+    ],
+
+    "import/no-extraneous-dependencies": "off",
+
+    "import/prefer-default-export": "off",
+
+    "no-confusing-arrow": "off",
+
+    "linebreak-style": "off",
+
+    "arrow-parens": ["error", "as-needed"],
+
+    "comma-dangle": [
+
+      "error",
+
+      {
+
+        "arrays": "always-multiline",
+
+        "objects": "always-multiline",
+
+        "imports": "always-multiline",
+
+        "exports": "always-multiline",
+
+        "functions": "ignore"
+
+      }
+
+    ],
+
+    "no-plusplus": "off"
 
   }
+  
 
 }
 
